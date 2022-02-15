@@ -1,11 +1,11 @@
 # URP-SharpShadow
 
-<img src="/../pics/pics/0.jpg" width="100%" height="100%"></img>
+<img src="/../pics/pics/Main.jpg" width="100%" height="100%"></img>
 
 How to preview
 -----------
 * Install [Universal Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest/).
-* Download and import the [Unity package](https://github.com/malyawka/URP-ScreenSpaceCavity/releases/tag/Unity).
+* Download and import the [Unity package](https://github.com/malyawka/URP-SharpShadow/releases/tag/Unity).
 * Open scene from <b>Assets/PolygonStarter/Scenes/Demo.unity</b>.
 
 <b>Tested with</b>
@@ -14,7 +14,7 @@ URP version - 10.7
 
 Parameters for URP Feature
 -----------
-<img src="/../pics/pics/0.jpg" width="100%" height="100%"></img>
+<img src="/../pics/pics/URP.jpg" width="75%" height="75%"></img>
 * <b>General</b>:
   * <b>Render Pass Event</b> - controls when the render pass executes.
   * <b>Render Layer</b> - controls which layer shadows are rendered on (default is TransparentFX).
@@ -28,14 +28,14 @@ Parameters for URP Feature
 
 Parameters for Static Shadows
 -----------
-<img src="/../pics/pics/0.jpg" width="100%" height="100%"></img>
+<img src="/../pics/pics/Static.jpg" width="75%" height="75%"></img>
 * <b>Ground</b> - floor height in world coordinates (mesh will be extruded to this height).
 * <b>Offset</b> - offset of the interfering volume of shadows relative to the original.
 * <b>Reverse</b> - changes the order of the triangles (may be necessary if you need to turn the mesh inside out).
 
 Parameters for Active & Skin Shadows
 -----------
-<img src="/../pics/pics/0.jpg" width="100%" height="100%"></img>
+<img src="/../pics/pics/Active.jpg" width="75%" height="75%"></img>
 * <b>Bounds Factor</b> - increases the bounds for the volume shadow mesh.
 * <b>Disable Shadows</b> - disables the shadow display for a specific object.
 
