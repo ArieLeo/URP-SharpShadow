@@ -1,6 +1,6 @@
 # URP-SharpShadow
 
-<img src="/../pics/pics/Main.jpg" width="100%" height="100%"></img>
+<img src="/../pics/pics/Main2.jpg" width="100%" height="100%"></img>
 
 How to preview
 -----------
